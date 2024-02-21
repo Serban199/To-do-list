@@ -1,0 +1,37 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.css-title{
+    font-size: x-large;
+}
+.css-todolist,
+.css-input{
+    display:grid;
+    grid-template-columns: 200px 150px 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+  
+}
+.css-insert1,
+.css-insert2{
+    height: 25px;
+    padding: 10px;
+}
+.css-insert{
+    width: 110px;
+    background-color:green;
+    color: aliceblue;
+
+}
+.css-delete{
+
+    background-color:darkred;
+    color:aliceblue;
+    width:110px;
+    height:30px;
+    margin-bottom: 10px;
+    
+}
+.css-overflow{
+    overflow: auto;
+}
